@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad402b55-1c7c-44e6-acf9-08862983012c" name="Changes" comment="init" />
+    <list default="true" id="ad402b55-1c7c-44e6-acf9-08862983012c" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_logging_log4j_1_2_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_poi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_poi_ooxml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsoup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e2_json/example-json.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/e4_excel/example.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LR10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e3_html/NewsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e3_html/NewsParser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,15 +35,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RAVqJHtj7j81nFJPWwYFhjO7zH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/downloads/json-simple-1.1.1.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -40,13 +63,13 @@
       <recent name="e2_json" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.e5_MyXml.myxml">
-    <configuration name="CreateXMLFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e1_xml.CreateXMLFile" />
+  <component name="RunManager" selected="Application.MyExcel">
+    <configuration name="MyExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e8_MyExcel.MyExcel" />
       <module name="LR10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e1_xml.*" />
+          <option name="PATTERN" value="e8_MyExcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e2_json.JsonCreator" />
+    <configuration name="Myhtml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e7_MyHTML.Myhtml" />
       <module name="LR10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="e2_json.*" />
+          <option name="PATTERN" value="e7_MyHTML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteExcelFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e4_excel.WriteExcelFileExample" />
+    <configuration name="ReadExcelFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e4_excel.ReadExcelFileExample" />
       <module name="LR10" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +103,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="e5_MyXml.myxml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="myjson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e6_MyJSON.myjson" />
+      <module name="LR10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e6_MyJSON.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myxml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="e5_MyXml.myxml" />
       <module name="LR10" />
       <extension name="coverage">
@@ -93,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myxml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e5_MyXML.myxml" />
-      <module name="LR10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e5_MyXML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.e5_MyXml.myxml" />
+        <item itemvalue="Application.MyExcel" />
+        <item itemvalue="Application.myjson" />
+        <item itemvalue="Application.Myhtml" />
         <item itemvalue="Application.myxml" />
-        <item itemvalue="Application.JsonCreator" />
-        <item itemvalue="Application.WriteExcelFileExample" />
-        <item itemvalue="Application.CreateXMLFile" />
+        <item itemvalue="Application.ReadExcelFileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686695332258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1686695587400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686695587400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +177,24 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/e1_xml/XMLParser.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/e1_xml/CreateXMLFile.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

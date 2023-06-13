@@ -8,9 +8,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="json-20230227" level="application" />
-    <orderEntry type="library" name="jsoup" level="application" />
     <orderEntry type="library" name="apache.logging.log4j.core" level="application" />
-    <orderEntry type="library" name="apache.poi" level="application" />
-    <orderEntry type="library" name="apache.poi.ooxml" level="application" />
+    <orderEntry type="library" name="json-simple-1.1.1" level="project" />
+    <orderEntry type="library" name="jsoup" level="project" />
+    <orderEntry type="library" name="apache.logging.log4j.1.2.api" level="project" />
+    <orderEntry type="library" name="apache.poi" level="project" />
+    <orderEntry type="library" name="apache.poi.ooxml" level="project" />
   </component>
 </module>

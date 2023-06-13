@@ -2,10 +2,10 @@ package e3_html;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
-import org.w3c.dom.Node;
 
-import javax.lang.model.element.Element;
+import org.jsoup.nodes.Element;
 import java.util.List;
 
 public class NewsParser {
